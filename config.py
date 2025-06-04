@@ -14,13 +14,13 @@ API_HASH = getenv("API_HASH")
 # ------------------------------------------------------
 BOT_TOKEN = getenv("BOT_TOKEN")
 # -------------------------------------------------------
-OWNER_USERNAME = getenv("OWNER_USERNAME","HEHE_STALKER")
+OWNER_USERNAME = getenv("OWNER_USERNAME","II_YOUR_GOJO_ll")
 # --------------------------------------------------------
-BOT_USERNAME = getenv("BOT_USERNAME" , "TIDALXMUSICBOT")
+BOT_USERNAME = getenv("BOT_USERNAME" , "Yorsamusic_bot")
 # --------------------------------------------------------
-BOT_NAME = getenv("BOT_NAME" , "TIDAL X MUSIC")
+BOT_NAME = getenv("BOT_NAME" , "YORSA X MUSIC")
 # ---------------------------------------------------------
-ASSUSERNAME = getenv("ASSUSERNAME" , "HEHE_STALKER")
+ASSUSERNAME = getenv("ASSUSERNAME" , "II_YOUR_GOJO_ll")
 # ---------------------------------------------------------
 
 
@@ -53,7 +53,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 # ----------------------------------------------------------------
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/shoaib910385/NEWTIDAL",
+    "https://github.com/HKMUSIC/YORSAMUSICBOT",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
@@ -67,8 +67,8 @@ GIT_TOKEN = getenv(
 
 # ------------------------------------------------------------------------
 # -------------------------------------------------------------------------
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/TIDALXUPDATES")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/TIDAL_SUPPORT")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/GOJO_SUPPORT_GROUP_II")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/II_CHATS_II")
 # ------------------------------------------------------------------------------
 # -------------------------------------------------------------------------------
 
