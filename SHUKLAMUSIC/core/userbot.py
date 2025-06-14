@@ -51,13 +51,13 @@ class Userbot(Client):
         if config.STRING1:
             await self.one.start()
             try:
-                await self.one.join_chat("tidal_support")
-                await self.one.join_chat("TIDALXUPDATES")
+                await self.one.join_chat("GOJO_SUPPORT_GROUP_II")
+                await self.one.join_chat("II_CHATS_II")
             except:
                 pass
             assistants.append(1)
             try:
-                await self.one.send_message(config.LOGGER_ID, "Stalkers Assistant Started")
+                await self.one.send_message(config.LOGGER_ID, "Assistant Started")
             except:
                 LOGGER(__name__).error(
                     "Assistant Account 1 has failed to access the log Group. Make sure that you have added your assistant to your log group and promoted as admin!"
@@ -72,13 +72,13 @@ class Userbot(Client):
         if config.STRING2:
             await self.two.start()
             try:
-                await self.two.join_chat("tidal_support")
-                await self.one.join_chat("TIDALXUPDATES")
+                await self.one.join_chat("GOJO_SUPPORT_GROUP_II")
+                await self.one.join_chat("II_CHATS_II")
             except:
                 pass
             assistants.append(2)
             try:
-                await self.two.send_message(config.LOGGER_ID, "Stalkers Assistant Started")
+                await self.two.send_message(config.LOGGER_ID, "Assistant Started")
             except:
                 LOGGER(__name__).error(
                     "Assistant Account 2 has failed to access the log Group. Make sure that you have added your assistant to your log group and promoted as admin!"
