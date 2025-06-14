@@ -93,13 +93,13 @@ class Userbot(Client):
         if config.STRING3:
             await self.three.start()
             try:
-                await self.three.join_chat("tidal_support")
-                await self.one.join_chat("TIDALXUPDATES")
+                await self.three.join_chat("GOJO_SUPPORT_GROUP_II")
+                await self.one.join_chat("II_CHATS_II")
             except:
                 pass
             assistants.append(3)
             try:
-                await self.three.send_message(config.LOGGER_ID, "Stalkers Assistant Started")
+                await self.three.send_message(config.LOGGER_ID, "Assistant Started")
             except:
                 LOGGER(__name__).error(
                     "Assistant Account 3 has failed to access the log Group. Make sure that you have added your assistant to your log group and promoted as admin! "
@@ -114,13 +114,13 @@ class Userbot(Client):
         if config.STRING4:
             await self.four.start()
             try:
-                await self.four.join_chat("tidal_support")
-                await self.one.join_chat("TIDALXUPDATES")
+                await self.four.join_chat("GOJO_SUPPORT_GROUP_II")
+                await self.one.join_chat("II_CHATS_II")
             except:
                 pass
             assistants.append(4)
             try:
-                await self.four.send_message(config.LOGGER_ID, "Stalkers Assistant Started")
+                await self.four.send_message(config.LOGGER_ID, "Assistant Started")
             except:
                 LOGGER(__name__).error(
                     "Assistant Account 4 has failed to access the log Group. Make sure that you have added your assistant to your log group and promoted as admin! "
@@ -135,13 +135,13 @@ class Userbot(Client):
         if config.STRING5:
             await self.five.start()
             try:
-                await self.five.join_chat("tidal_support")
-                await self.one.join_chat("TIDALXUPDATES")
+                await self.five.join_chat("GOJO_SUPPORT_GROUP_II")
+                await self.one.join_chat("II_CHATS_II")
             except:
                 pass
             assistants.append(5)
             try:
-                await self.five.send_message(config.LOGGER_ID, "Stalkers Assistant Started")
+                await self.five.send_message(config.LOGGER_ID, "Assistant Started")
             except:
                 LOGGER(__name__).error(
                     "Assistant Account 5 has failed to access the log Group. Make sure that you have added your assistant to your log group and promoted as admin! "
