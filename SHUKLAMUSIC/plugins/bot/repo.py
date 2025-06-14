@@ -7,7 +7,7 @@ import httpx
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 start_txt = """
-❥ ωєℓ¢σмє тσ  ˹ 𝐓ɪᴅᴀʟ ꭙ 𝐌ᴜꜱɪᴄ˼ 🥀 
+❥ ωєℓ¢σмє тσ  ˹ 𓆩𝐆𐑴𝐣𝛐 𝐈𝐧𝐟𝛊𝐧𝛊𝐭𝐲𓆪˼ 🥀 
 
 ❥ ʀᴇᴘᴏ ᴄʜᴀᴀʜɪʏe ᴛᴏ ʙᴏᴛ ᴋᴏ 
 
@@ -15,7 +15,7 @@ start_txt = """
 
 ❥ ᴀᴅᴍɪɴ ʙᴀɴᴏ ᴀᴜʀ sᴄʀᴇᴇɴsʜᴏᴛ 
      
-❥ ᴏᴡɴᴇʀ @HEHE_STALKER ᴋᴏ ᴅᴏ ғɪʀ ʀᴇᴘᴏ ᴍɪʟ sᴀᴋᴛɪ ʜᴀɪ 
+❥ ᴏᴡɴᴇʀ @II_YOUR_GOJO_ll ᴋᴏ ᴅᴏ ғɪʀ ʀᴇᴘᴏ ᴍɪʟ sᴀᴋᴛɪ ʜᴀɪ 
 
 """
 
@@ -29,11 +29,11 @@ async def start(_, msg):
           InlineKeyboardButton("♡ α∂∂ иσω ♡", url=f"https://t.me/TIDALXMUSICBOT?startgroup=true")
         ],
         [
-          InlineKeyboardButton("ѕυρρσɾƚ", url="https://t.me/TIDAL_SUPPORT"),
-          InlineKeyboardButton("×͜×┊𝅃𝙎𝙏𝚲𝙇𝙆𝙀𝙍 ꭙ𒌋", url="https://t.me/HEHE_STALKER"),
+          InlineKeyboardButton("ѕυρρσɾƚ", url="https://t.me/GOJO_SUPPORT_GROUP_II"),
+          InlineKeyboardButton("𓆩𝐆𐑴𝐣𝛐 𝐈𝐧𝐟𝛊𝐧𝛊𝐭𝐲𓆪", url="https://t.me/II_YOUR_GOJO_ll"),
           ],
                [
-                InlineKeyboardButton("ᴏᴛʜᴇʀ ʙᴏᴛs", url=f"https://t.me/TIDALXUPDATES"),
+                InlineKeyboardButton("ᴏᴛʜᴇʀ ʙᴏᴛs", url=f"https://t.me/GOJO_SUPPORT_GROUP_II"),
 ],
 [
 InlineKeyboardButton("ᴄʜᴇᴄᴋ", url=f"https://t.me/TIDALXMUSICBOT"),
